@@ -1,0 +1,340 @@
+
+
+/* 设置nav导航条外部容器*/
+.nav-wrapper{
+    /* background-color: teal;*/
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+.nav a{
+    display: block;
+}
+/* 设置logo图标*/
+.logo a{
+    margin-right: 200px;
+    color: #11A8D5;
+    font-size: 60px;
+    font-weight: 900;
+}
+/* 设置中间导航*/
+.services a{
+    width: 150px;
+   
+    /* 设置文字左右居中*/
+    text-align: center;
+}
+.services a:hover{
+    color: orange;
+}
+/* 设置右边导航*/
+.services-right a{
+    width: 200px;
+    
+    color: #6b7280;
+}
+.services-right a:hover{
+    color: orange;
+}
+/* 设置左边，中间导航条中li*/
+ .logo, .services li{
+    float: left;
+}
+/* 设置右边导航条中li*/
+.services-right li{
+    float: right;
+}
+
+
+
+.navf-wrapper{
+    
+    height: 97px;
+    line-height: 97px;  
+}
+.navf{
+    width: 400px;
+    margin: 0 auto;
+}
+.navf li{
+    color: #6b7280;
+    float: left;
+    line-height: 97px;
+    font-size: 16px;
+    padding-left: 30px;
+ 
+}
+.navf li a:hover{
+    color: orange;
+}
+
+
+/* 设置横幅外部容器banner*/
+.banner-wrapper{
+    width: 100%;
+    height: 420px;
+   
+    /*background-color: springgreen;*/
+}
+/* 设置banner中li*/
+.banner li{
+    font-weight: 900;
+    font-size:48px;
+    color:black;
+    line-height: 1;
+}
+/* 设置第二个li*/
+.moji-wrapper .secend{
+    font-size:48px;
+    color: #11A8D5;
+}
+/* 设置banner中span*/
+.banner span{
+    font-size: 16px;
+    width: 800px;
+    display: block;
+}
+
+/* 设置按钮*/
+.button-wrapper li:link{
+    display: block;
+    width:225px;
+    height: 62px;   
+}
+/* 设置左侧按钮*/
+.button-wrapper .left a{
+    font-size: 16px;
+    line-height: 62px;
+    color: white;
+    float: left;
+    padding: 0 10px;
+    margin-top: 80px;
+    margin-right: 50px;
+    background-color: #11A8D5;   
+}
+/* 设置右侧按钮*/
+.button-wrapper .right a{
+    font-size: 16px;
+    line-height: 62px;
+    color: #11A8D5;
+    float: left;
+    border: 1px #d7f0f8 solid;
+    padding: 0 10px;
+    margin-top: 80px;
+    margin-right: 50px;
+    background-color: white;
+    
+}
+/* 设置鼠标移入按钮状态变化*/
+.button-wrapper ul li a:hover{
+    /*设置阴影部分*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+    color: orange;
+}
+/* 设置banner右侧图片*/
+.img-wrapper img{
+    margin:-170px 0;
+    float: right;
+   width: 400px;
+}
+
+
+
+
+
+/* 设置中间图片加文字外部容器*/
+.middle-wrapper{
+    margin-top: 50px;
+    
+    width: 100%;
+    height: 420px;
+}
+
+/* 设置中间图片加文字内部容器*/
+.middle-wrapper ul{
+    float: left;
+    display: block;
+    width: 264px;
+    height: 348px; 
+    padding-right:135px;
+    margin-top: 50px;
+}
+
+.middle-wrapper li{
+    font-size: 20px;
+    color: #000;
+}
+.middle-wrapper .article{
+    font-size: 16px;
+    color:#6b7280 ;
+}
+
+/* 设置自我介绍容器*/
+.introduction-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    height:432px ;
+    background-color:#126C99;
+}
+/* 设置自我介绍img*/
+.introduction-wrapper  img{
+    float: right;
+    width: 50%;
+    height: 432px;
+}
+/* 设置自我介绍文章*/
+.article2 {
+    width: 100%;
+    padding: 20px 20px;
+
+}
+.introduction-wrapper .article2 h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 8px 0 0 ;
+    padding: 15px 5px;
+    color: #fff; 
+}
+
+.introduction-wrapper p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 12px 0 0 ;
+    color: #fff; 
+}
+
+/* 设置脚步*/
+.foot{
+    width: 100%;
+    height: 84px;
+
+    margin: 80px auto;
+    margin-bottom: 20px;
+}
+.footh1{
+    width: 235px;
+    margin: 0 auto;
+}
+.footp1{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.foot h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+.foot p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6b7280;
+}
+
+/* 设置8图片容器*/
+.m-img-wrapper{
+    width: 100%;
+    height:600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.m-img-wrapper img{
+    width: 375px;
+    height: 296px;
+}
+
+.m-img-wrapper img:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    border: 1px solid orange;
+
+}
+
+/* 设置脚步*/
+.foot2{
+    width: 950px;
+    height: 84px;
+
+    margin: 80px auto;
+    margin-bottom: 20px;
+}
+.foot2 h3{
+   
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+.footh3{
+    width: 235px;
+    margin: 0 auto;
+}
+.foot2 p{
+    font-size: 16px;
+    font-weight: 500;
+    left: 300px;
+    color: #6b7280;
+}
+.footp{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* 设置表单容器大小*/
+.form{
+    width: 448px;
+    height:400px ;
+    padding:32px 40px ;
+    border: 1px solid #d7f0f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+
+}
+
+.form ul{
+    padding: 8px 12px;
+}
+.form li{
+    width: 366px;
+    height: 20px;
+    font-size: 14px;
+    color: #374151;
+
+}
+.form input{
+    width: 366px;
+    height: 38px;
+}
+
+.m input{
+    width: 366px;
+    height: 98px;  
+}
+/*设置发送按钮*/
+.send input{
+    color: white;
+    background-color: #11A8D5;
+    font-size: 16px;
+}
+.send input:hover{
+    /*设置阴影部分*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
