@@ -174,8 +174,10 @@
 /* 设置自我介绍容器*/
 .introduction-wrapper{
     margin-top: 50px;
-    width: 100%;
+    width: 1200px;
     height:432px ;
+    overflow: hidden;
+    margin: 0 auto;
     background-color:#126C99;
 }
 /* 设置自我介绍img*/
@@ -186,7 +188,7 @@
 }
 /* 设置自我介绍文章*/
 .article2 {
-    width: 100%;
+    width: 50%;
     padding: 20px 20px;
 
 }
@@ -235,10 +237,11 @@
 
 /* 设置8图片容器*/
 .m-img-wrapper{
-    width: 100%;
+    width: 1200px;
     height:600px;
     overflow: hidden;
     margin: 0 auto;
+    
 }
 
 .m-img-wrapper img{
@@ -248,7 +251,7 @@
 
 .m-img-wrapper img:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
-    border: 1px solid orange;
+    border: 1px solid transparent;
 
 }
 
